@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.esnek2 {
+    width: 100%;
+    height: auto;
+    border-radius: 61px;
+}
+
+.esnek3 {
+    width: 100%;
+    height: auto;
+    border-radius: 61px;
+}
+
+.main,h1,h3{
+    color:	#228B22;
+    text-align: center;
+}

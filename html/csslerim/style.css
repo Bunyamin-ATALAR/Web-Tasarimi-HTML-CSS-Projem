@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding:0%;
+    background-color: #dbdbdb;
+    font-family: 'Nerko One', cursive;
+    
+}
+
+#social{
+    background-color: black;
+    color: wheat;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 20px;
+    text-align: right;
+    padding: 17px;
+}
+
+font{
+    float: left;
+    letter-spacing: 4px;
+}
+
+span{
+    font-size: 12px;
+    letter-spacing: 1,5px;
+}
+#social>i{
+    margin-right: 10px;
+}
+#social>i:hover{
+    opacity: 0.7;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    color: wheat;
+    margin-bottom: 7px;
+}
+
+#baslik-resim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    height: auto;
+}
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+}
+
+nav li{
+    list-style-type:none;
+}
+
+nav li a{
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding left: 20px;
+    display: block;
+}
+
+nav li a:hover{
+    color: black;
+    background-color: wheat;
+}
+
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    
+}
+
+
+.icerik{
+    width: 75%;
+    height: auto;
+    display: inline block;
+    margin-right: 12px;
+    border-radius: 10px;
+    margin: 150px;
+   
+}
+
+footer{
+    width: 100%;
+    height: 75%;
+    background-color: black;
+    color: wheat;
+    line-height: 75px;
+    text-align: center;
+}
+
+
+
+
